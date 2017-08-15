@@ -55,7 +55,7 @@ VIRTUALENV WINDOWS:
     - run virtualenv env
     - cd env/Scripts/activate
 
-INSTALL NVM
+INSTALL NVM:
     - curl https://raw.githubusercontent.com/creationix/nvm/v0.25.0/install.sh | bash
     - nvm --version
     - nvm install 6

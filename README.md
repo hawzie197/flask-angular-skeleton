@@ -22,43 +22,43 @@ Requirements
 
 Install Python 3:
 
-  - https://www.python.org/downloads/
-  - python -v ( > 3.4 )
+    - https://www.python.org/downloads/
+    - python -v ( > 3.4 )
 
 Install pip (MAC):
 
-  - sudo easy_install pip3
+    - sudo easy_install pip3
 
 Install pip (WINDOWS):
 
-  - python -m pip install --upgrade pip
+    - python -m pip install --upgrade pip
 
 Install nvm (MAC):
 
-  - curl https://raw.githubusercontent.com/creationix/nvm/v0.25.0/install.sh | bash
-  - close terminal and reopen
-  - nvm --version
+    - curl https://raw.githubusercontent.com/creationix/nvm/v0.25.0/install.sh | bash
+    - close terminal and reopen
+    - nvm --version
 
 Install nvm (WINDOWS):
 
-  - https://github.com/coreybutler/nvm-windows/releases
-  - close terminal and reopen
-  - nvm --version
+    - https://github.com/coreybutler/nvm-windows/releases
+    - close terminal and reopen
+    - nvm --version
 
 Install node and npm (with nvm):
 
-  - nvm install 6
-  - npm -v
-  - node -v
+    - nvm install 6
+    - npm -v
+    - node -v
 
 Install Angular CLI:
 
-  - npm install -g @angular/cli
-  - ng -v
+    - npm install -g @angular/cli
+    - ng -v
 
 Install virtualenv:
 
-  - pip install virtualenv
+    - pip install virtualenv
 
 ============
 Setup

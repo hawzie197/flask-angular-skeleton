@@ -8,6 +8,8 @@ Another note is that an efficient way to develop the angular flask app is to use
 One terminal will run the server side. (to run server side: python manage.py runserver)
 The second terminal will run the client side. (ng build --dev --watch)
 
+During production this will not be necessary. Only running the flask server will be needed.
+
 ============
 Requirements
 ============

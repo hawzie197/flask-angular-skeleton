@@ -67,8 +67,8 @@ Setup
 1. open terminal
 2. cd desktop
 3. git clone https://github.com/hawzie197/Flask_Angular4_Skeleton.git
-4. cd into Flask_Angular4_Skeleton
-5. run create virtual env (see below for mac vs windows)
+4. cd Flask_Angular4_Skeleton
+5. create virtual environment (see below for mac vs windows)
 6. pip install -r requirements.txt
 7. python manage.py runserver
 8. open second terminal

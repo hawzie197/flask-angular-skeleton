@@ -96,27 +96,33 @@ Project Breakdown
 ============
 
 default:
+
     - Contains all routes for the project. These routes serve up data from backend for the client side to recieve.
 
 models:
+
     - The models hold sqlalchemy classes. These sqlalchemy classes are ORMs or object relational mappers, which directory
     correspond to the tables in the database.
 
 services:
+
     - The backend services separate out the logic from the routes and modals. These contain all the core backend code for
     manipulating data.
 
 static:
+
     - The static directory contains all of Angular's client side code. The static directory requests and recieves information
     through api calls to flask's routes.
 
 static/src/app/components:
+
     - The components directory contains all components composing the client side of the application.
     - To create a new component:
         - cd app/static
         - ng g component [name]
 
 static/src/app/services:
+
     - The static services separate out logic from the components. They request/recieve data from the components and transfer it
     from the client side to server side through api calls to flask's routes.
     - To create a new service:
@@ -124,6 +130,7 @@ static/src/app/services:
         - ng g service [name]
 
 templates:
+
     - The templates hold all html templates to render. All views are handled with Angular. These are mostly for
     warnings. 404s, 403s, 500s, unauthorized, etc..
 

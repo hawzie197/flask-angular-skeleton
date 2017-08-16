@@ -75,7 +75,7 @@ Setup
 7. python manage.py runserver
 8. open second terminal
 9. cd app/static
-10. check node/npm versions (if not correct, run: nvm use 6) # import because of angular's package-lock.json
+10. check node/npm versions (if not correct, run: nvm use 6) # import because of angular's package.json
 11. npm install (get node_modules, could take a while)
 12. ng build --dev --watch
 13. navigate to: http://127.0.0.1:5000/

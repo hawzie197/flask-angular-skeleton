@@ -27,7 +27,7 @@ Install Python 3:
 
 Install pip (MAC):
 
-    - sudo easy_install pip3
+    - sudo easy_install pip
 
 Install pip (WINDOWS):
 

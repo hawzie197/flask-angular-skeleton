@@ -22,43 +22,43 @@ Requirements
 
 Install Python 3:
 
-- https://www.python.org/downloads/
-- python -v ( > 3.4 )
+  - https://www.python.org/downloads/
+  - python -v ( > 3.4 )
 
 Install pip (MAC):
 
-- sudo easy_install pip3
+  - sudo easy_install pip3
 
 Install pip (WINDOWS):
 
-- python -m pip install --upgrade pip
+  - python -m pip install --upgrade pip
 
 Install nvm (MAC):
 
-- curl https://raw.githubusercontent.com/creationix/nvm/v0.25.0/install.sh | bash
-- close terminal and reopen
-- nvm --version
+  - curl https://raw.githubusercontent.com/creationix/nvm/v0.25.0/install.sh | bash
+  - close terminal and reopen
+  - nvm --version
 
 Install nvm (WINDOWS):
 
-- https://github.com/coreybutler/nvm-windows/releases
-- close terminal and reopen
-- nvm --version
+  - https://github.com/coreybutler/nvm-windows/releases
+  - close terminal and reopen
+  - nvm --version
 
 Install node and npm (with nvm):
 
-- nvm install 6
-- npm -v
-- node -v
+  - nvm install 6
+  - npm -v
+  - node -v
 
 Install Angular CLI:
 
-- npm install -g @angular/cli
-- ng -v
+  - npm install -g @angular/cli
+  - ng -v
 
 Install virtualenv:
 
-- pip install virtualenv
+  - pip install virtualenv
 
 ============
 Setup
@@ -66,27 +66,25 @@ Setup
 
 1. open terminal
 2. cd desktop
-3. create directory EX. fl_angular4
-4. cd into that directory
-5. git clone https://github.com/hawzie197/Flask_Angular4_Skeleton.git
-6. cd into Flask_Angular4_Skeleton
-7. run create virtual env (see below for mac vs windows)
-8. pip install -r requirements.txt
-9. python manage.py runserver
-10. open second terminal
-11. cd app/static
-12. check node/npm versions (if not correct, run: nvm use 6) # import because of angular's package-lock.json
-13. npm install (get node_modules, could take a while)
-14. ng build --dev --watch
-15. navigate to: http://127.0.0.1:5000/
+3. git clone https://github.com/hawzie197/Flask_Angular4_Skeleton.git
+4. cd into Flask_Angular4_Skeleton
+5. run create virtual env (see below for mac vs windows)
+6. pip install -r requirements.txt
+7. python manage.py runserver
+8. open second terminal
+9. cd app/static
+10. check node/npm versions (if not correct, run: nvm use 6) # import because of angular's package-lock.json
+11. npm install (get node_modules, could take a while)
+12. ng build --dev --watch
+13. navigate to: http://127.0.0.1:5000/
 
 VIRTUALENV MAC:
 
-    - run: virtualenv env
-    - activate: source env/bin/activate
+    - virtualenv env
+    - source env/bin/activate
 
 VIRTUALENV WINDOWS:
 
-    - run virtualenv env
+    - virtualenv env
     - cd env/Scripts
     - activate

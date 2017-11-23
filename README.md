@@ -62,6 +62,17 @@ Install virtualenv:
 
     - pip install virtualenv
 
+VIRTUALENV MAC:
+
+    - virtualenv env
+    - source env/bin/activate
+
+VIRTUALENV WINDOWS:
+
+    - virtualenv env
+    - cd env/Scripts
+    - activate
+
 ============
 Setup
 ============
@@ -79,17 +90,6 @@ Setup
 11. npm install (get node_modules, could take a while)
 12. ng build --dev --watch
 13. navigate to: http://127.0.0.1:5000/
-
-VIRTUALENV MAC:
-
-    - virtualenv env
-    - source env/bin/activate
-
-VIRTUALENV WINDOWS:
-
-    - virtualenv env
-    - cd env/Scripts
-    - activate
 
 ============
 Project Breakdown

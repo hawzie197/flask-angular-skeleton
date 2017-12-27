@@ -1,6 +1,21 @@
 Flask/Angular 4 - Skeleton
 =========================
 
+## Styling
+
+Current Style: CSS
+To Change, delete the `static` directory and run `ng new static --style=` with one of the following pereferences after the equals sign: `/css/sass/scss`
+
+## Material
+If you would like to use Angular Material in your application, I have build a skeleton with all the necessary modules to include Material, animations, and to get your app running quickly.
+
+Find it here: `https://github.com/hawzie197/angular5-material-skeleton`
+
+Simply delete the static directory inside /app, clone the repo above, rename it to `static` and drop inside /app.
+`angular5-material-skeleton` has a current preset of `scss`
+
+## Notice
+
 One thing to note is that flask calls Angular's index.html file located 'static/src/index.html' which serves
 the angular app. It is important to note that flask finds the index.html upon building in the 'dist' directory.
 

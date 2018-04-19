@@ -9,7 +9,8 @@ import { RouterModule, Routes } from '@angular/router';
 const appRoutes: Routes = [
     {
         path      : '**',
-        //comonent: [YourImportedComponentClass]
+        //redirectTo: '/PATH-TO-HOME',
+        pathMatch: 'full'
     },
 
 ];
@@ -21,7 +22,7 @@ const appRoutes: Routes = [
   imports: [
     BrowserModule,
     BrowserAnimationsModule,
-
+    RouterModule.forRoot(appRoutes,{useHash:true}), // Allows angular to reload components in browser.
   ],
   providers: [],
   bootstrap: [AppComponent]
